@@ -50,36 +50,39 @@ Confusion Matrix: Table showing True Positive, True Negative, False Positive, an
 
  
 ## Results
-Model	Accuracy	Precision	Recall	F1-Score
-Logistic Regression	0.88	0.87	0.89	0.88
-Multinomial Naive Bayes	0.86	0.85	0.87	0.86
-Random Forest Classifier	0.87	0.86	0.87	0.86
-SVM	0.88	0.88	0.88	0.88
-Gradient Boosting	0.87	0.86	0.87	0.87
+| Model                    | Accuracy | Precision | Recall | F1-Score |
+| ------------------------ | -------- | --------- | ------ | -------- |
+| Logistic Regression      | 0.88     | 0.87      | 0.89   | 0.88     |
+| Multinomial Naive Bayes  | 0.86     | 0.85      | 0.87   | 0.86     |
+| Random Forest Classifier | 0.87     | 0.86      | 0.87   | 0.86     |
+| SVM                      | 0.88     | 0.88      | 0.88   | 0.88     |
+| Gradient Boosting        | 0.87     | 0.86      | 0.87   | 0.87     |
 
-----
+
+
 
 Note: Results may vary depending on preprocessing and vectorization.
 
-Conclusion
+----
+
+## Conclusion
 
 Sentiment analysis using machine learning models can effectively classify movie reviews.
-
 Logistic Regression and SVM performed best for this dataset.
-
 Proper text preprocessing and feature extraction are key for improving model performance.
-
 Future Work
-
 Implement deep learning models like LSTM, GRU, or BERT for better accuracy.
-
 Use hyperparameter tuning to optimize model performance.
-
 Apply ensemble techniques combining multiple models for improved results.
-
 Build a real-time web application to predict sentiment of new reviews.
 
-References
+
+---
+
+
+
+
+## References
 
 IMDB Movie Reviews Dataset on Kaggle
 
@@ -89,6 +92,8 @@ Scikit-learn Documentation: https://scikit-learn.org
 
 NLTK Documentation: https://www.nltk.org
 
+
+-----
 Example:
 
 ```python
