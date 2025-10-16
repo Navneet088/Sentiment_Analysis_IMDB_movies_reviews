@@ -27,36 +27,29 @@ Text preprocessing is an essential step to clean the dataset and prepare it for 
 3. Remove stopwords (common words like "the", "is", etc.).
 4. Perform lemmatization to reduce words to their base form.
 5. Tokenize the text into words.
-   
-##Machine Learning Models
+6.
+
+ ---
+## Machine Learning Models
 
 Several machine learning algorithms can be used for sentiment analysis:
-
 Logistic Regression (LR)
-
 Naive Bayes (MultinomialNB)
-
 Random Forest Classifier (RFC)
-
 Support Vector Machine (SVM)
-
 Gradient Boosting Classifier (GBC)
-
-
 Evaluation Metrics
-
 Accuracy: Percentage of correct predictions.
-
 Precision: Correct positive predictions out of all predicted positives.
-
 Recall: Correct positive predictions out of all actual positives.
-
 F1-Score: Harmonic mean of precision and recall.
-
 Confusion Matrix: Table showing True Positive, True Negative, False Positive, and False Negative.
 
 
-Results
+ ---
+
+ 
+## Results
 Model	Accuracy	Precision	Recall	F1-Score
 Logistic Regression	0.88	0.87	0.89	0.88
 Multinomial Naive Bayes	0.86	0.85	0.87	0.86
@@ -64,6 +57,7 @@ Random Forest Classifier	0.87	0.86	0.87	0.86
 SVM	0.88	0.88	0.88	0.88
 Gradient Boosting	0.87	0.86	0.87	0.87
 
+----
 
 Note: Results may vary depending on preprocessing and vectorization.
 
